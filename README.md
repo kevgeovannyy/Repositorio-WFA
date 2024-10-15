@@ -10,7 +10,7 @@ El proyecto **Proyecto-Profesores** utiliza un archivo `docker-compose.yml` para
 - **mysite/**: Un proyecto web que utiliza Vue.js para la creación de una aplicación interactiva.
 - **proyectorickmorty/**: Una aplicación basada en Vue.js que consume una API de Rick y Morty.
 - **Prueba-Docker/**: Un entorno de prueba para aprender y aplicar conocimientos de Docker.
-- **Proyecto-Profesores/**: Una aplicación para la gestión de profesores utilizando tecnologías web modernas y Docker Compose.
+- **Proyecto-Profesores/**: Una aplicación para la gestión de profesores utilizando base de datos.
 - **cart-app/**: Una aplicación de carrito de compras simple.
 
 ## Requisitos Previos
@@ -147,6 +147,4 @@ Si deseas contribuir a este repositorio, sigue estos pasos:
 4. Haz push a la rama (`git push origin feature-nueva-funcionalidad`).
 5. Abre un Pull Request.
 
----
 
-Este README proporciona una guía general para cada proyecto, su propósito y las instrucciones necesarias para ejecutarlos correctamente utilizando Docker y Vue.js. Cualquier duda adicional puede ser resuelta en la sección de issues del repositorio.
