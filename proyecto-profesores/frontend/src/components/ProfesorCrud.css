@@ -1,0 +1,25 @@
+/* ProfesorCrud.css */
+.container {
+    max-width: 800px;
+    margin-top: 2rem;
+  }
+  
+  .table {
+    margin-top: 1rem;
+  }
+  
+  .table th {
+    background-color: #f8f9fa;
+  }
+  
+  .btn svg {
+    margin-right: 5px;
+  }
+  
+  .form-control:focus {
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,0.25);
+  }
+  
+  .btn-primary {
+    width: 100%;
+  }

@@ -1,0 +1,34 @@
+1. Crear una cuenta en Docker Hub
+Ve a Docker Hub y crea una cuenta si no tienes una.
+Asegúrate de recordar tus credenciales de usuario (nombre de usuario y contraseña).
+
+2. Instalar Docker en tu máquina
+Si no tienes Docker instalado, descárgalo e instálalo desde Docker.
+Verifica que Docker esté funcionando correctamente ejecutando el siguiente comando en tu terminal:
+docker --version
+
+3. Construir tu imagen Docker
+Si ya tienes un Dockerfile, navega a la carpeta donde está ubicado y ejecuta el comando para construir la imagen:
+docker build -t nombre_usuario/nombre_imagen:tag .
+nombre_usuario: debe ser tu nombre de usuario de Docker Hub.
+nombre_imagen: el nombre que le quieres dar a la imagen.
+tag: (opcional) una etiqueta o versión de la imagen (por ejemplo, v1.0 o latest).
+
+4. Iniciar sesión en Docker Hub
+Antes de poder subir la imagen a Docker Hub, necesitas autenticarte en Docker desde la terminal:
+docker login
+Esto te pedirá tu nombre de usuario y contraseña de Docker Hub.
+
+5. Subir la imagen a Docker Hub
+Una vez que la imagen está construida y has iniciado sesión, puedes usar el siguiente comando para subirla a Docker Hub:
+
+docker push nombre_usuario/nombre_imagen:tag
+Docker subirá la imagen y estará disponible en tu cuenta de Docker Hub.
+
+6. Verificar en Docker Hub
+Una vez que la imagen se haya subido, puedes verificarla visitando tu perfil en Docker Hub y revisando la lista de repositorios. Ahí debería aparecer la imagen que subiste.
+
+7. Usar la imagen desde Docker Hub
+Cualquiera (o tú mismo) podrá descargar la imagen desde Docker Hub con el siguiente comando:
+
+docker pull nombre_usuario/nombre_imagen:tag
