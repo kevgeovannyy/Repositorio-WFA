@@ -232,6 +232,15 @@ Para ejecutar los proyectos, se requiere tener instalados los siguientes program
         docker-compose up --build
         ```
      3. Accede a la aplicación en `http://localhost:8080`.
+### **Crear Base de datos**
+   - CREATE DATABASE profesores_db;
+
+      USE profesores_db;
+      
+      CREATE TABLE profesores (
+          id INT AUTO_INCREMENT PRIMARY KEY,
+          nombre VARCHAR(100) NOT NULL
+      );
 
 ### 5. **cart-app**
    - **Descripción**: Una aplicación de carrito de compras simple.
